@@ -1,0 +1,4 @@
+- CHS loading for the Windows 98 machine
+- Configuring the PIT for channel 0 to keep a system timer
+    - Useful for basic dating and seeding random number generators
+

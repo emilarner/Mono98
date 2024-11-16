@@ -1,0 +1,9 @@
+; alternative bootloading procedure for older, more legacy machines
+; e.g., my Windows 98 machine with a Pentium(r) processor and 48 MB of ram
+
+; floppy = 2880 logical sectors
+; sector = (logical_sector % 18) + 1
+; head = (logical_sector / 18) % 2
+; cylinder = (logical_sector / 36)
+; we need to read logical sectors 2 - 2880 inclusive
+; 18 sectors per track, 
